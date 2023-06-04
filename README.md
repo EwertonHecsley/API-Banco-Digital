@@ -155,6 +155,12 @@ DB_PASSWORD=sua-senha
 
 Espero que isso atenda às suas expectativas. Se você tiver mais alguma solicitação, por favor, avise-me!
 
+[LinkedIn](https://www.linkedin.com/in/ewerton-hecsley-8a613992/?trk)
+
+[Email](mailto:ewerton.martinscomercial@gmail.com)
+
+
+
 
 ## Contribuição
 
