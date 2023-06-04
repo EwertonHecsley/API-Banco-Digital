@@ -157,10 +157,6 @@ Espero que isso atenda às suas expectativas. Se você tiver mais alguma solicit
 
 [LinkedIn](https://www.linkedin.com/in/ewerton-hecsley-8a613992/?trk)
 
-[Email](mailto:ewerton.martinscomercial@gmail.com)
-
-
-
 
 ## Contribuição
 
