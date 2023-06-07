@@ -117,42 +117,6 @@ Este endpoint emite o extrato bancário de uma conta bancária.
 
 ---
 
-## Instruções de Instalação e Configuração
-
-1. Clone o repositório:
-
-
-```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-
-```
-
-2. Acesse o diretório do projeto:
-
-```bash
-cd seu-repositorio
-```
-
-3. Instale as dependências:
-
-```bash
-npm install
-```
-
-4. Renomeie o arquivo **.env.example** para **.env**
-
-5. Abra o arquivo .env e defina as variáveis de ambiente necessárias, como as credenciais do banco de dados ou quaisquer outras configurações relevantes para o seu projeto.
-
-Exemplo de arquivo .env:
-
-```bash
-PORT=3000
-DB_HOST=localhost
-DB_USER=seu-usuario
-DB_PASSWORD=sua-senha
-```
-
-
 Espero que isso atenda às suas expectativas. Se você tiver mais alguma solicitação, por favor, avise-me!
 
 [LinkedIn](https://www.linkedin.com/in/ewerton-hecsley-8a613992/?trk)
