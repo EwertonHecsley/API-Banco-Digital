@@ -1,7 +1,7 @@
 const express = require('express');
 const rota = express.Router();
 
-const { verificaSenhaObrigatorio, verificaCamposCriaConta, verificaCampoAtualiza, verificaDeposito, verificaSaque, verificaTransferencia, verificaSaldo, verificaExtrato } = require('../middlewares/midVerificaCampos');
+const { verificaSenhaObrigatorio, verificaCamposCriaConta, verificaCampoAtualiza, verificaDeposito, verificaSaque, verificaTransferencia, verificaSaldo, verificaExtrato, verificaDeletarConta } = require('../middlewares/midVerificaCampos');
 
 const { listaConta, criarConta, atualzaConta, excluirConta, depositar, sacar, transferencia, saldo, extrato } = require('../controllers/controlador');
 
@@ -12,7 +12,7 @@ rota.post('/contas', verificaCamposCriaConta, criarConta); // Criar conta
 
 rota.put('/contas/:numeroConta/usuario', verificaCampoAtualiza, atualzaConta); // Atualizar conta
 
-rota.delete('/contas/:numeroConta', excluirConta) // Excluir conta
+rota.delete('/contas/:numeroConta', verificaDeletarConta, excluirConta) // Excluir conta
 
 rota.post('/transacoes/depositar', verificaDeposito, depositar); // Depositar Valor na conta
 
